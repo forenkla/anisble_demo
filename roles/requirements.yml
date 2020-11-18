@@ -1,2 +1,4 @@
 # from GitHub, overriding the name and specifying a tag 
-- src: https://github.com/forenkla/ansible_demo.git
+- src: https://github.com/forenkla/ansible_role_apache_vhost.git
+  name: apache_vhost
+
