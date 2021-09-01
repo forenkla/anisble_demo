@@ -1,6 +1,6 @@
 ---
 - name: Add a Windows user
-  hosts: Windows
+  hosts: 10.211.55.17
   
   tasks:
   - name: Ensure user bob is present
