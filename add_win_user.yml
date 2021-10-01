@@ -1,0 +1,12 @@
+---
+- name: Add a Windows user
+  hosts: 10.211.55.17
+  
+  tasks:
+  - name: Ensure user bob is present
+    win_user:
+      name: {{ winuser }}
+      password: B0bP4ssw0rd
+      state: present
+      groups:
+        - Users
