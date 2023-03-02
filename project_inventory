@@ -1,0 +1,7 @@
+[web]
+node1 ansible_host=3.76.217.175
+node2 ansible_host=3.75.235.223
+node3 ansible_host=18.158.61.213
+
+[control]
+ansible-1 ansible_host=18.197.254.21
